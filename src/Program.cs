@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace DesignPattern;
+
+/*
+    A collection of software design patterns implemented in C#.
+    The 'DesignPattern' solution organizes patterns by category: Creational, Behavioral and Structural
+    with each group placed in its own class library project.
+    Author: Methran
+*/
+
+public static class Program
+{
+    public static void Main()
+    {
+
+    }
+}
