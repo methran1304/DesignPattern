@@ -9,7 +9,7 @@ public class WindowsDialog : Dialog
 {
     public override void Render()
     {
-        Console.WriteLine("WindowsDialog: Render()");
+        Console.WriteLine($"{this.GetType().Name}: Render()");
     }
 
     public override IButton CreateButton()

@@ -4,11 +4,11 @@ public class HtmlButton : IButton
 {
     public void Render()
     {
-        Console.WriteLine("HTMLButton: Render()");
+        Console.WriteLine($"{this.GetType().Name}: Render()");
     }
 
     public void OnClick()
     {
-        Console.WriteLine("HTMLButton: OnClick()");
+        Console.WriteLine($"{this.GetType().Name}: OnClick()");
     }
 }

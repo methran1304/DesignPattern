@@ -9,7 +9,7 @@ public class WebDialog : Dialog
 {
     public override void Render()
     {
-        Console.WriteLine("WebDialog: Render()");
+        Console.WriteLine($"{this.GetType().Name}: Render()");
     }
 
     public override IButton CreateButton()

@@ -4,11 +4,11 @@ public class WindowsButton : IButton
 {
     public void Render()
     {
-        Console.WriteLine("WindowsButton: Render()");
+        Console.WriteLine($"{this.GetType().Name}: Render()");
     }
 
     public void OnClick()
     {
-        Console.WriteLine("WindowsButton: OnClick()");
+        Console.WriteLine($"{this.GetType().Name}: OnClick()");
     }
 }
