@@ -1,4 +1,6 @@
-﻿namespace DesignPattern;
+﻿using DesignPattern.DesignPattern.Creational.FactoryMethod;
+
+namespace DesignPattern;
 
 /*
     A collection of software design patterns implemented in C#.
@@ -11,5 +13,8 @@ public static class Program
 {
     public static void Main()
     {
+        // Factory method
+        var client = new FactoryMethodClient();
+        client.Initialize();
     }
 }

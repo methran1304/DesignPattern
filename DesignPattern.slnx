@@ -1,8 +1,5 @@
 <Solution>
     <Folder Name="/src/">
-        <Project Path="src/DesignPattern.csproj"/>
-        <Project Path="src/DesignPattern.Behavioral/DesignPattern.Behavioral.csproj"/>
-        <Project Path="src/DesignPattern.Creational/DesignPattern.Creational.csproj"/>
-        <Project Path="src/DesignPattern.Structural/DesignPattern.Structural.csproj"/>
+        <Project Path="src/DesignPattern.csproj" />
     </Folder>
 </Solution>
