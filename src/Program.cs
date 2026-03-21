@@ -1,6 +1,7 @@
-﻿using DesignPattern.DesignPattern.Creational.FactoryMethod;
+﻿namespace DesignPattern;
 
-namespace DesignPattern;
+using Creational.FactoryMethod;
+using Creational.AbstractFactory;
 
 /*
     A collection of software design patterns implemented in C#.
@@ -14,7 +15,11 @@ public static class Program
     public static void Main()
     {
         // Factory method
-        var client = new FactoryMethodClient();
-        client.Initialize();
+        // var factoryMethodClient = new Creational.FactoryMethod.FactoryMethodClient();
+        // factoryMethodClient.Initialize();
+        
+        // Abstract Factory
+        var abstractFactoryClient = new AbstractFactoryClient();
+        abstractFactoryClient.Initialize();
     }
 }

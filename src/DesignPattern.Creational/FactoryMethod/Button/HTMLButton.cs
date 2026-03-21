@@ -1,14 +1,14 @@
-namespace DesignPattern.DesignPattern.Creational.FactoryMethod.Button;
+namespace DesignPattern.Creational.FactoryMethod;
 
 public class HtmlButton : IButton
 {
     public void Render()
     {
-        Console.WriteLine($"{this.GetType().Name}: Render()");
+        Console.WriteLine($"{GetType().Name}: Render()");
     }
 
     public void OnClick()
     {
-        Console.WriteLine($"{this.GetType().Name}: OnClick()");
+        Console.WriteLine($"{GetType().Name}: OnClick()");
     }
 }

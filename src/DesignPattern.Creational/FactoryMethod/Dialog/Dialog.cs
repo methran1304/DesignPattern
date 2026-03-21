@@ -1,6 +1,4 @@
-using DesignPattern.DesignPattern.Creational.FactoryMethod.Button;
-
-namespace DesignPattern.DesignPattern.Creational.FactoryMethod.Dialog;
+namespace DesignPattern.Creational.FactoryMethod;
 
 /*
  * The base Dialog class uses different UI elements to render its window.

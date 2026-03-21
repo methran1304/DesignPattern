@@ -1,6 +1,4 @@
-using DesignPattern.DesignPattern.Creational.FactoryMethod.Dialog;
-
-namespace DesignPattern.DesignPattern.Creational.FactoryMethod;
+namespace DesignPattern.Creational.FactoryMethod;
 
 /*
  * This example illustrates how the Factory Method can be
@@ -30,7 +28,7 @@ public class FactoryMethodClient
         TargetOs = OperatingSystem.MacOs
     };
 
-    private Dialog.Dialog? _dialog;
+    private Dialog? _dialog;
 
     public void Initialize()
     {
@@ -41,7 +39,7 @@ public class FactoryMethodClient
         button.OnClick();
     }
 
-    private Dialog.Dialog GetDialog()
+    private Dialog GetDialog()
     {
         return _config.TargetOs switch
         {

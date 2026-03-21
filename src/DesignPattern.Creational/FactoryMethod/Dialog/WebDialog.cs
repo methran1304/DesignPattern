@@ -1,6 +1,4 @@
-using DesignPattern.DesignPattern.Creational.FactoryMethod.Button;
-
-namespace DesignPattern.DesignPattern.Creational.FactoryMethod.Dialog;
+namespace DesignPattern.Creational.FactoryMethod;
 
 // Concrete creators override the factory method to change the
 // resulting product's type.
@@ -9,7 +7,7 @@ public class WebDialog : Dialog
 {
     public override void Render()
     {
-        Console.WriteLine($"{this.GetType().Name}: Render()");
+        Console.WriteLine($"{GetType().Name}: Render()");
     }
 
     public override IButton CreateButton()
