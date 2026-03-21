@@ -7,13 +7,7 @@ public class ModernChair : IChair
         Console.WriteLine($"Sat on {GetType().Name}");
     }
 
-    public bool HasLegs()
-    {
-        return true;
-    }
+    public bool HasLegs() => true;
 
-    public bool HasAdjustableSeatAngle()
-    {
-        return true;
-    }
+    public bool HasAdjustableSeatAngle() => true;
 }

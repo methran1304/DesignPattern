@@ -7,13 +7,6 @@ public class VictorianChair : IChair
         Console.WriteLine($"Sat on {GetType().Name}");
     }
 
-    public bool HasLegs()
-    {
-        return true;
-    }
-
-    public bool HasAdjustableSeatAngle()
-    {
-        return false;
-    }
+    public bool HasLegs() => true;
+    public bool HasAdjustableSeatAngle() => false;
 }

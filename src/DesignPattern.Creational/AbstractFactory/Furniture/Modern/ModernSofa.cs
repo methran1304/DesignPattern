@@ -7,13 +7,6 @@ public class ModernSofa : ISofa
         Console.WriteLine($"Sat on {GetType().Name}");
     }
 
-    public bool HasLegs()
-    {
-        return true;
-    }
-
-    public bool HasCushion()
-    {
-        return true;
-    }
+    public bool HasLegs() => true;
+    public bool HasCushion() => true;
 }
